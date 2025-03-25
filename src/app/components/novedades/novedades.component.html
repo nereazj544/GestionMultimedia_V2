@@ -1,14 +1,22 @@
 <div class="head">
     <h1>COMUNIDAD</h1>
     <div class="InputContainer">
-        <input placeholder="Buscar..." id="input" class="input" name="text" type="text">
+        <input placeholder="Buscar..." id="input" class="input" name="text" type="text" (input)="buscar($event)">
     </div>
 </div>
 
 <div class="calendar-seccion">
     <h3>Calendario de estrenos</h3>
     <div class="filtro">
-        <button *ngFor="let filtro of filtros"></button>
+        <button *ngFor="let filtro of filtros" (click)="toggleFilter(filtro)" [class.active]="currentFilter === filtro">
+            {{filtro}}
+        </button>
     </div>
 
+    <div class="plataformas" *ngIf="isVideogameFilter">
+        <button *ngFor="let plataforma of plataformas" (click)="filtrarPorPlataforma(plataforma)"
+            class="plataforma-btn">
+            {{plataforma}}
+        </button>
+    </div>
 </div>
