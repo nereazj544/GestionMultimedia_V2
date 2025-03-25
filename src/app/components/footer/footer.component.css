@@ -1,0 +1,48 @@
+/*TODO SEPARADOR DIV */
+
+.separadordvi {
+    min-height: 3rem;
+}
+
+
+/* TODO_ PIE DE PAGINA */
+footer {
+    /* background-color: aqua; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 90px;
+    display: flex;
+    flex-direction: column;
+    /* max-width: auto; */
+}
+.s-footer {
+    display: flex;
+}
+
+.a-footer {
+    margin-left: 50rem;
+}
+
+.a-footer:hover {
+    color: aqua;
+}
+
+.separador {
+    display: none;
+}
+
+/* El salto de línea que se muestra en móviles */
+.salto-linea {
+    display: block;
+}
+
+/* Media query para pantallas medianas y grandes */
+@media (min-width: 768px) {
+    .separador {
+        display: inline;
+    }
+
+    .salto-linea {
+        display: none;
+    }
+}
