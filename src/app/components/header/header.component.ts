@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Router, NavigationEnd } from '@angular/router';
+import e from 'express';
 
 @Component({
   selector: 'app-header',
@@ -12,10 +13,22 @@ import { RouterModule } from '@angular/router';
 export class HeaderComponent {
   isLoginPage = false;
   isRegistroPage = false;
+
+  constructor(private router: Router){
+    this.router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) {
+        this.isLoginPage = event.url.includes('/iniciarsesion')
+        this.isLoginPage = event.url.includes('/registrarse')
+      }
+    })
+  }
+
+
   onLonginClick(){
-    this.isLoginPage = true;
+    console.log("Click en iniciar sesion")
   }
   onRegistroinClick(){
-    this.isRegistroPage = true;
+    console.log("Click en Registrarse")
+    // this.isRegistroPage = true;
   }
 }
