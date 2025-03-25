@@ -12,6 +12,6 @@ export const routes: Routes = [
     {path: 'iniciarsesion', component: IniciarsesionComponent},
     {path: 'registrarse', component: RegistrarseComponent},
     
-    { path: 'error', component: ErrorComponent },
+    { path: '**', component: ErrorComponent },
     // { path: '', redirectTo: 'error' },
 ];
