@@ -1,4 +1,4 @@
-![logo](logo.png)
+<p align="center"> <img src="LOGO.png"/> </p>
 
 # Gestion
 
