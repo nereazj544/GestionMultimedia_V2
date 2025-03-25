@@ -1,7 +1,7 @@
 <header>
   <nav>
     <ul>
-      <li class="logo"><a [routerLink]="['/home']">Gestiona tus P.S.L.V</a></li>
+      <li class="logo"><a [routerLink]="['/home']" (click)="onHomeClick">Gestiona tus P.S.L.V</a></li>
       <div class="hea-div" *ngIf="!isLoginPage && !isRegistroPage">
         <li><a [routerLink]="['/nuevos']">Nuevos Lanzamientos</a></li>
         <li>

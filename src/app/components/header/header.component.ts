@@ -14,21 +14,26 @@ export class HeaderComponent {
   isLoginPage = false;
   isRegistroPage = false;
 
-  constructor(private router: Router){
+  onHomeClick(): void {
+    this.isLoginPage = false;
+    this.isRegistroPage = false;
+  }
+
+  constructor(private router: Router) {
     this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
-        this.isLoginPage = event.url.includes('/iniciarsesion')
-        this.isLoginPage = event.url.includes('/registrarse')
+        this.isLoginPage = this.router.url === ('/iniciarsesion');
+        this.isRegistroPage = this.router.url === ('/registrarse');
       }
     })
   }
 
 
-  onLonginClick(){
-    console.log("Click en iniciar sesion")
+  onLonginClick(): void {
+    console.log("Click en iniciar sesion");
   }
-  onRegistroinClick(){
-    console.log("Click en Registrarse")
-    // this.isRegistroPage = true;
+  onRegistroinClick(): void {
+    console.log("Click en Registrarse");
   }
+
 }
