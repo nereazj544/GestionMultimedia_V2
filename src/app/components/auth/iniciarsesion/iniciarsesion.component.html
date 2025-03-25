@@ -6,22 +6,22 @@
         <h1>Iniciar Sesion</h1>
     </div>
     <div class="div3">
-        <form>
+        <form class="form">
             <!-- TODO EMAIL -->
-            <div class="form-grupo">
-                <label for="email">Email o Nombre de Usuario</label>
-                <input class="ss" type="text" id="user" name="email" required>
-            </div>
-            <!-- TODO CONTRA -->
-            <div class="form-grupo">
-                <label for="email">Contraseña</label>
-                <input class="ss" type="password" id="pass" name="pass" required>
-                <!-- TODO MOSTRAR CONTRASEÑA-->
-
-                <button type="button" class="pass-ver" (click)="togglePass()"></button>
-                <p><a>No me acuerdo de la contraseña</a></p>
-            </div>
+            <span class="input-span">
+                <label for="email" class="label">Email</label>
+                <input type="email" name="email" id="email" />
+            </span>
+            <!-- TODO CONTRASEÑA -->
+            <span class="input-span">
+                <label for="password" class="label">Contraseña</label>
+                <input [type]="showPass ? 'text':'password'" name="password" id="password" class="pass"/>
+                <button type="button" class="ver-pass" (click)="togglePass()">
+                    <i class="fas" [class.fa-eye]="!showPass" [class.fa-eye-slash]="showPass">👁️</i>
+                </button>
+            </span>
+            <span class="span"><a href="">No me acuerdo de la contraseña</a></span>
+            <input class="submit" type="submit" value="Iniciar sesion" />
         </form>
-        <button>Iniciar sesion</button>
     </div>
 </div>
