@@ -1,0 +1,11 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+head{
+    display: flex;
+    flex-direction: column;
+}
+
