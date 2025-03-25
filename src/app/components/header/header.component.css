@@ -49,3 +49,32 @@ a:hover {
 li button a {
     color: white;
 }
+
+
+
+/*TODO MENU DE REGISTRASESE */ 
+.iniciar{
+    display: flex;
+}
+
+.iniciar li button {
+    background-color: #06ADBF;
+    border-radius: 30px;
+    font-size: 15px;
+    color: white;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.iniciar li button a {
+    text-decoration: none;
+    color: white;
+}
+.iniciar li button a:hover {
+    color: black;
+}
+
+
+/*TODO MENU DE REGISTRARSE*/ 

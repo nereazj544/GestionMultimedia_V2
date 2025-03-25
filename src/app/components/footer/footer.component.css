@@ -27,22 +27,22 @@ footer {
     color: aqua;
 }
 
-.separador {
+p > .separador {
     display: none;
 }
 
 /* El salto de línea que se muestra en móviles */
-.salto-linea {
+br {
     display: block;
 }
 
 /* Media query para pantallas medianas y grandes */
 @media (min-width: 768px) {
-    .separador {
+    p .separador {
         display: inline;
     }
 
-    .salto-linea {
+    br {
         display: none;
     }
 }
