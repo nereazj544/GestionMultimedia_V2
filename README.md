@@ -2,10 +2,21 @@
     <img src="logo.png" alt="logo_Gestion_Multimedia">
 </p>
 
+<br>
+<p align="center">
+
+</p>
+<br>
 
 <br>
 <p align="center" font-size="30px">
 「  🦁 ; こんにちは ⲇ ⲉ⳽ⲧⲉ ⲃⳑⲟⳋ 」
+</p>
+<br>
+
+<br>
+<p align="center">
+☆゜・。。・゜゜・。。・゜★・。。・゜゜・。。・ ☆゜・。。・゜゜・。。・゜★ ・。。・゜゜・。。・ ☆゜・。。・゜゜・。。・゜★・。。・゜゜・。。・ ☆゜・。。・゜゜・。。・゜★
 </p>
 <br>
 
@@ -26,19 +37,22 @@
 <br>
 
 <br>
+<br>
 <p align="center">
-<img height="69px" src="https://i.pinimg.com/736x/aa/55/41/aa5541d265687d1fb50d15e6088013d6.jpg" >
+<img height="90px" width="100%" src="https://i.pinimg.com/736x/7f/6d/95/7f6d95a485791f905b5c94e31054d460.jpg" >
 </p>
+<br>
 <br>
 
 # 📌 Descripción General
 
-Este proyecto ha sifo
+Este proyecto ha sido diseñado p
 
 
 <br>
+<br>
 <p align="center">
-<img height="69px" src="https://i.pinimg.com/736x/aa/55/41/aa5541d265687d1fb50d15e6088013d6.jpg" >
+<img height="90px" width="100%" src="https://i.pinimg.com/736x/aa/55/41/aa5541d265687d1fb50d15e6088013d6.jpg" >
 </p>
 <br>
 
@@ -47,8 +61,10 @@ Este proyecto ha sifo
 
 
 <br>
+<br>
+
 <p align="center">
-<img  height="69px"  src="https://i.pinimg.com/736x/35/cd/54/35cd544a8b4bde382edafa48c8c7795f.jpg" alt="separador1">
+<img  height="90px" width="100%" src="https://i.pinimg.com/736x/35/cd/54/35cd544a8b4bde382edafa48c8c7795f.jpg" alt="separador1">
 </p>
 <br>
 
@@ -56,7 +72,7 @@ Este proyecto ha sifo
 
 <br>
 <p align="center">
-<img  height="69px"  src="https://i.pinimg.com/736x/ff/18/08/ff180896bf024353d41301ca2e623603.jpg" alt="separador1">
+<img  height="90px" width="100%"   src="https://i.pinimg.com/736x/ff/18/08/ff180896bf024353d41301ca2e623603.jpg" alt="separador1">
 </p>
 <br>
 
